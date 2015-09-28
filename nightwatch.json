@@ -1,0 +1,20 @@
+{
+  "src_folders": [
+    "tests"
+  ],
+  "output_folder": "reports",
+  "test_settings": {
+    "yesjs": {
+      "selenium_host": "seleniumc.bridge",
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    },
+    "nojs": {
+      "selenium_host": "seleniumc.bridge",
+      "desiredCapabilities": {
+        "browserName": "htmlunit"
+      }
+    }
+  }
+}

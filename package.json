@@ -1,0 +1,15 @@
+{
+  "name": "selenium-nojs-test",
+  "private": "true",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server ./app -p 3000",
+    "test": "nightwatch --env nojs --tag nojs && nightwatch --env yesjs --tag yesjs"
+  },
+  "author": "rnsloan1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "nightwatch": "^0.8.3"
+  }
+}
